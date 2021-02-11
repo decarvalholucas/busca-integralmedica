@@ -15,7 +15,7 @@ const getProduct = () => {
 
     async function getProductShelf() {
       const pageUrl = await fetch(
-        `https://upbeat-clarke-554e29.netlify.app/.netlify/functions/api/buscapagina?fq=C:${
+        `https://angry-stonebraker-0c656b.netlify.app/.netlify/functions/api/buscapagina?fq=C:${
           config.categoryId
         }&PS=${config.productQuantity}&sl=${config.shelfId}&cc=${
           config.productQuantity
